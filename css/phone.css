@@ -36,7 +36,7 @@
         /* background-color:yellowgreen; */
         position: fixed;
         z-index:2;
-        /* background:url(../img/logo.png) no-repeat left;
+        /* background:url(https://file.htapi.pub/bighomework/logo.png) no-repeat left;
         background-size:230px 65px; */
     }
     
@@ -48,7 +48,7 @@
         height:100px;
     }
     #nav-ba{
-        background:url(../img/logo.png) no-repeat left;
+        background:url(https://file.htapi.pub/bighomework/logo.png) no-repeat left;
         background-size:200px 65px;
     }
     #nav-btn{
@@ -93,7 +93,7 @@
         height:366px;
         width:750px;
         /* background-color: olivedrab; */
-        background-image: url(../img/banner.jpg);
+        background-image: url(https://file.htapi.pub/bighomework/banner.jpg);
         background-size:100% 100%;
     }
     #p-lb-p{
@@ -123,7 +123,7 @@
     }
     #inp-1{  
         float: left;
-        background: url(../img/position.png) no-repeat 40px;;
+        background: url(https://file.htapi.pub/bighomework/position.png) no-repeat 40px;;
         height:100%;
         background-color:#e4e5e6;
         border-top-left-radius:5px;
@@ -164,7 +164,7 @@
         padding-top:45px;
         padding-left:110px;
         background-color: aliceblue;
-        background: url(../img/carH.png) no-repeat left center;
+        background: url(https://file.htapi.pub/bighomework/carH.png) no-repeat left center;
     }
     #p3-p p{
         margin: 0;
@@ -218,14 +218,14 @@
         margin-top:20px;
         height:400px;
         width:100%;
-        background:url(../img/hot1.jpg);
+        background:url(https://file.htapi.pub/bighomework/hot1.jpg);
         background-size:100% 100%;
     }
     #p4-img-2{
         height:400px;
         margin-top:20px;
         width:100%;
-        background:url(../img/hot2.jpg);
+        background:url(https://file.htapi.pub/bighomework/hot2.jpg);
         background-size:100% 100%;
     }
     #p4-i-p{
@@ -274,9 +274,9 @@
         width:100%;
         /* background-color: lightcoral; */
         border-top:1px solid rgb(165, 165, 165);
-        background:url(../img/visa1.jpg) no-repeat 0px 22px,
-        url(../img/visa5.jpg) no-repeat 306px 22px,
-        url(../img/visa2.jpg) no-repeat 306px 222.5px;
+        background:url(https://file.htapi.pub/bighomework/visa1.jpg) no-repeat 0px 22px,
+        url(https://file.htapi.pub/bighomework/visa5.jpg) no-repeat 306px 22px,
+        url(https://file.htapi.pub/bighomework/visa2.jpg) no-repeat 306px 222.5px;
         background-size:44% 93%,60% 45%,60% 46%;
     }
     #p5-i-p{
@@ -291,7 +291,7 @@
     #p-p6{
         height:1864px;
         width:100%;
-        background: url(../img/back.png) no-repeat 0px 100px;
+        background: url(https://file.htapi.pub/bighomework/back.png) no-repeat 0px 100px;
         background-color: white;        
         margin-top:20px;
         padding-top:45px;
@@ -307,7 +307,7 @@
         width:100%;
         background-color: lightskyblue;
         border-top:1px solid rgb(168, 168, 168);
-        background:url(../img/mission1.jpg) no-repeat 0px 50px;
+        background:url(https://file.htapi.pub/bighomework/mission1.jpg) no-repeat 0px 50px;
         background-size:668px 328px;
     }
     #p6-2{
