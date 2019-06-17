@@ -1,0 +1,500 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a:link { text-decoration: none;;color: black;} 
+a:active { text-decoration:none;color: black;} 
+a:hover { text-decoration:none;color: black;} 
+a:visited { text-decoration: none;color: black;} 
+
+li{
+    float: left;
+}
+/* top */
+#top{
+    /* position: fixed; */
+    z-index:2;
+    height:125px;
+    background-color:#dddddd;
+    width:100%;
+}
+#box1{
+    height:45px;
+    width:100%;
+    background-color: #282828;
+    color: white;
+}
+#b1-1{
+    widows: 1200px;
+    height:100%;
+    margin:0 auto;
+    /* border:1px solid pink; */
+    line-height:45px;
+}
+#b1sp{
+    /* background:url(../img/tell.png)  no-repeat left; */
+    font-size:20px;
+    padding-left:10px;
+}
+
+/* 导航栏 */
+
+.container {
+    height: 125px;
+    width: 100%;
+}
+#nav {
+    margin: 0 auto;
+    height: 79px;
+    width: 1203px;
+}
+.navbar-nav {
+    height: 79px;
+    line-height: 79px;
+    margin-left: 130px;
+}
+.navbar-nav>li {
+    margin-right: 70px;
+}
+.navbar-default .navbar-nav>li>a {
+    display: inline;
+    font-size: 20px;
+    color: #000;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e8420a;
+}
+.navbar-default .navbar-nav>.active>a {
+    color: #e8420a;
+    background: none;
+    border-bottom: #e8420a  4px solid;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #e8420a;
+    background: none;
+}
+
+/* 导航栏 */
+/* top 结束*/
+
+
+#bigbox2{
+    position:absolute;
+    width:100%;
+    /* margin-top:125px; */
+}
+/* 轮播图容器 */
+#b-box1{
+    height:445px;
+    /* background-color:orange; */
+}
+/* 轮播图 */
+#lb-img1{
+    float: left;
+    margin-top:215px;
+    margin-left:15px;
+}
+#lb-img2{
+    float:right;
+    margin-top:215px;
+    margin-right:15px;
+}
+#lb-div1{
+    position: absolute;
+    width:595px;
+    /* border:1px solid red; */
+    color:white;
+    z-index:1;
+    margin-left:100px;
+    top:100px;
+}
+#lb-div2{
+    position: absolute;
+    width:590px;
+    height:60PX;
+    /* border:1px solid red; */
+    /* background-color:pink; */
+    color:white;
+    z-index:1;
+    margin-left:300px;
+    top:325px;
+    border-radius:5px;
+    border:5px solid rgb(0,0,0,0.6);
+}
+#lbin{
+    width:580px;
+    height:50px;
+    background-color: orangered;
+    margin: 0 auto;
+    border-radius:5px;
+    font-size:18px;
+}
+#lbin-1{
+    float: left;
+    width:145px;
+    height:50px;
+    background: lightgrey;
+    opacity:1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    color:grey;
+    padding-top:13px;
+    padding-left:24px;
+}
+#lbin-in{
+    height:50px;
+    width:310px;
+    text-align: center;
+    color: black;
+}
+#lb-btn{
+    position: absolute;
+    float: right;
+    background: none;
+    border:none;
+    width: 127px;
+    height:50px;
+}
+#lb-p2{
+    width:240px;
+    padding-top:10px;
+    margin-left:10px;
+    border-top:0.5px solid white;
+}
+#lb-p3{
+    width:280px;
+    padding-bottom:10px;
+    margin-left:10px;
+    border-bottom:0.5px solid white;
+}
+#lb-cp{
+    float: left;
+}
+
+/* 轮播图结束 */
+
+/* 第三部分 */
+#bigbox3{
+    height:4305px;
+    width:100%;
+    margin:0 auto;
+    position: absolute;
+    background-color:#dddddd;
+}
+#box3{
+    width:1200px;
+    height:2450px;
+    margin:0 auto;
+    margin-top:20px;
+    /* position: absolute; */
+    /* background-color:lightcoral; */
+}
+/* 车辆接送 part1*/
+#b3-1{
+    height:364px;
+    width:100%;
+    background:url(../img/Sbanner2.jpg) no-repeat left;
+    background-color: #14316d;
+    border-radius:5px;
+    color:white;
+}
+#b3-1-1{
+    margin-top:30px;
+    margin-left:550px;
+    width:350px;
+    position: absolute;
+}
+#b3-1-2{
+    float: right;
+    /* position: absolute; */
+    margin-top:80px;
+    margin-right:40px;
+     /* border:1px solid red; */
+}
+#b3-btn{
+    background:none;
+    border:1px solid white;
+    border-radius:10px;
+    height:50px;
+    width:180px;
+    font-size:24px;
+    margin-top:30px;
+}
+/* 第三部分part2 */
+#b3-p-div1{
+    color:black;
+    margin-left:510px;
+    margin-top:25px;
+}
+#b3-p1{
+    font-size:36px;
+}
+#b3-2{
+    height:1030px;
+    width:1200px;
+    /* background-color:olive; */
+    margin-top:25px;
+}
+#b3-2-u1{
+    /* position:relative; */
+    width:595px;
+    height:100%;
+    float: left;
+    /* background-color:pink; */
+    margin-right:5px;
+}
+#b3-2-u1 li{
+    padding-bottom:5px;
+}
+#b3-2-u2 li{
+    padding-bottom:5px;
+}
+#b3-2-u1 img{
+    width:595px;
+}
+#b3u1-img-1{
+    height:105px;
+    background-color: black;
+    color: white;
+    font-size:20px;
+    font-weight: lighter;
+    padding-left:40px;
+    padding-top:20px;
+}
+#b3u1-img-2{
+    height:90px;
+    background-color: black;
+    color: white;
+    font-size:20px;
+    font-weight: lighter;
+    padding-left:40px;
+    padding-top:8px;
+}
+/* 第二列图片 */
+#b3-2-u2 li{
+    margin-bottom:5px;
+}
+#b3u2-d{
+    height:90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: black; */
+    /* opacity: 0.5; */
+    color: white;
+    padding-top:20px;
+}
+#b3u2-d P{  
+    padding-left:40px;
+    margin:0;
+}
+/* part2结束 */
+
+/* part3 签证推荐*/
+#b3-3-p{
+    color:black;
+    /* position: absolute; */
+    margin-left: 510px;
+}
+#b3-3{
+    height:555px;
+    background: url(../img/visa1.jpg) no-repeat left,
+    url(../img/visa2.jpg) no-repeat 403px 0px,
+    url(../img/visa3.jpg) no-repeat 805px 0px,
+    url(../img/visa4.jpg) no-repeat 403px 280px,
+    url(../img/visa5.jpg) no-repeat 805px 280px;
+    /* background-color: lightblue; */
+}
+#b3-3-1{
+    height:75px;
+    width:398px;
+    /* background-color:black;
+    opacity: 0.5; */
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size:20px;
+    font-weight: lighter;
+    padding-top:10px;
+    padding-left:40px;
+    color:white;
+    position: absolute;
+    margin-top:480px;
+}
+#b3-3-2{
+    height:48px;
+    width:396px;
+    /* background-color:black;
+    opacity: 0.5; */
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size:20px;
+    font-weight: lighter;
+    padding-left:40px;
+    color:white;
+    position: absolute;
+}
+#b3-3-btn{
+    height:50px;
+    width:230px;
+    border:1px solid black;
+    border-radius:10px;
+    background: none;
+    font-size:20px;
+    margin-left:490px;
+}
+/* part3 签证推荐*/
+
+/* box3 */
+
+/* part4 */
+#box4{
+    height:345px;
+    width:100%;
+    background:url(../img/Bbanner.jpg);
+    margin-top:2450px;
+    position: absolute;
+}
+/* part4 */
+
+/* 使命愿景 */
+#box5{
+    height:1495px;
+    width:100%;
+    /* background-color: lightpink; */
+    margin-top:2795px; 
+    position: absolute;
+   background: url(../img/back.png) no-repeat;
+}
+#b5{
+    height:100%;
+    width:1200px;
+    margin: 0 auto;
+    /* background-color:lightsalmon; */
+}
+#b5-p{
+    /* position: absolute; */
+    padding-top: 125px;
+    padding-left:510px;
+    padding-bottom:65px;
+}
+#b5-1{
+    height: 828px;
+    width:100%;
+    background: url(../img/mission1.jpg) no-repeat,
+    url(../img/mission2.jpg) no-repeat 0px 355px;
+    /* background-color: palevioletred; */
+}
+#b5-1-1{
+    float: right;
+    height:350px;
+    width:705px;
+    background:#1f3674;
+    opacity:0.7;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#b5-1-p{
+    color: white;
+    font-size:16px;
+    width:520px;
+    height:194px;
+    line-height:30px;
+    margin-left:92px;
+    margin-top:90px;
+}
+#b5-2{
+    height:400px;
+    margin-top:2px;
+    background-color:#1c5080;
+    border-radius:8px;
+}
+#b5-ul{
+    margin-left:130px;
+    padding-top:50px;
+}
+#b5-ul p{
+    margin-top:15px;
+}
+#b5-ul li{
+    color:white;
+    font-size:20px;
+    text-align: center;
+    height:300px;
+    width:310px;
+    background: url(../img/rorate.png) no-repeat center top;
+}
+/* 使命愿景 */
+
+/* 底部 */
+#box6{
+    height:530px;
+    width:100%;
+    margin:0 auto;
+    position: absolute;
+    background-color: black; 
+    margin-top:4305px;
+
+}
+#b6-1{
+    width:1200px;
+    height:335px;
+    color:white;
+    /* background-color: lightcoral; */
+    margin:0 auto;
+}
+#b6-1-2{
+    float: right;
+    width:1090px;
+    height:290px;
+    margin-top:45px;
+    /* margin-left: 105px; */
+    /* background-color: pink; */
+    line-height:25px;
+}
+#b6-1 ul{
+    margin:0;
+}
+#p6-li1{
+    line-height:15px;
+    height:75px;
+    width:480px;
+    background: url(../img/parnter1.jpg) no-repeat 0px 2px,
+    url(../img/parnter2.jpg) no-repeat  128px 0px,
+    url(../img/parnter3.jpg) no-repeat 256px 0px,
+    url(../img/parnter4.jpg) no-repeat 386px 0px;
+    /* background-color:palevioletred; */
+}
+#p6-sp{
+    margin-top: 55px;
+}
+#p6-sp2 span{
+    padding:6px;
+    
+}
+#p6-sp3 span{
+    padding:6px;
+}
+#p6-sp4 span{
+    padding:7px;
+}
+#p6-ul li{
+    padding-bottom:20px;
+}
+#p6-li{
+    font-size:18px;
+    margin-left:10px;
+    margin-top:45px;
+    float: left;
+    height:250px;
+    width:94px;
+    /* background-color:hotpink; */
+}
+#b7{
+    width:100%;
+    border-top:0.5px solid grey;
+    height:100px;
+    text-align: center;
+    color:white;
+    font-size:16px;
+}
